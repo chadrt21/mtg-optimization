@@ -3,15 +3,17 @@ Optimize Magic: The Gathering decks based on theme or card sets
 
 ## Architecture (in progess)
 ### Frontend
-Provide selection between preset deck themes or for user to imput select cards to base deck around. 
+User selection:
+ * Preset deck colors/themes (mono red, Izzet, Angels, etc.) or select cards to base deck around
+ * Game Legality (Modern, Historic, Commander, etc.)  
 
-After processing/optimizing possible deck configurations display deck layout and deck performace metrics (card type distribution, win probability, mana distribution, etc.).
-Export functionality (text or pdf) for if the user wants to store results. 
+After processing/optimizing possible deck configurations display most optimial deck layout and deck performace metrics (card type distribution, win probability, mana distribution, etc.).
+Have export functionality (text or pdf) for if the user wants to store results. 
 ### Backend
 #### Getting Data
 https://docs.magicthegathering.io/
 
-There are currently ~22,151 non-land MTG cards (Sep 2021). If API call does max 100 cards at a time then it will take ~222 API calls to get all non-land cards (there is a API limit of 5000 requests per hour). *What are the space requirements for all MTG cards?* 
+There are currently ~22,151 non-land MTG cards (Sep 2021). If API call does max 100 cards at a time then it will take ~222 API calls to get all non-land cards (there is a API limit of 5000 requests per hour). *What are the space requirements for all MTG cards (in JSON like format)?* 
 
 #### Processing/Optimizing
 Research Papers:
@@ -24,3 +26,5 @@ Research Papers:
   * State Graph?
  
 *Which game theory should be implemented in these simulated games?*
+ * *How do you choose which cards to play?*
+ * *WHen to use a instant spell?*
