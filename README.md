@@ -19,3 +19,7 @@ Research Papers:
 * [Monte Carlo search applied to card selection in Magic: The Gathering](https://ieeexplore.ieee.org/abstract/document/5286501)
 
 *What would be O() to simulate n MTG games?*
+  * Brute force?
+  * Greedy?
+  * State Graph?
+*Which game theory should be implemented in these simulated games?*
