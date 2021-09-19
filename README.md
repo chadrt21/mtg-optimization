@@ -20,6 +20,14 @@ Research Papers:
 * [Deckbuilding in Magic: The Gathering Using a Genetic Algorithm](https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/2462429/16274_FULLTEXT.pdf?sequence=1&isAllowed=y)
 * [Monte Carlo search applied to card selection in Magic: The Gathering](https://ieeexplore.ieee.org/abstract/document/5286501)
 
+##### Deck Building
+If there are 60 cards in a deck and 17-36 lands per deck (depending on mana curve), then there could be anywhere from 1.12e134 to 3.09e80 possible cards choices per deck. This can be reduced by restrictions such as card themes (Angles, Merfolk, etc.) or colors (Blue, Red, etc.). 
+
+Instead of trying to generate a whole new deck each time, generate a deck from a deck seed (preset deck sub-set). 
+
+##### Deck Testing
+Would machine learning/AI be required to test decks? Or could it be statistically analyzed by some meteric(s) that could indicate probability of winning? 
+
 *What would be O() to simulate n MTG games?*
   * Brute force?
   * Greedy?
