@@ -25,6 +25,12 @@ If there are 60 cards in a deck and 17-36 lands per deck (depending on mana curv
 
 Instead of trying to generate a whole new deck each time, generate a deck from a deck seed (preset deck sub-set). 
 
+Common MTG deck archetypes:
+* Aggro
+* Control
+* Combo
+* Midrange
+
 ##### Deck Testing
 Would machine learning/AI be required to test decks? Or could it be statistically analyzed by some meteric(s) that could indicate probability of winning? 
 
